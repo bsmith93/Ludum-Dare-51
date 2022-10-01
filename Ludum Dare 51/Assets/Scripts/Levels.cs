@@ -4,13 +4,13 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class Level // A single level
+public class Level
 {
 	public List<string> m_Rows = new List<string>();
 
 	public int Height { get { return m_Rows.Count; } }
 	public int Width
-	{ //Width is length of longest row
+	{
 		get
 		{
 			int maxLength = 0;
