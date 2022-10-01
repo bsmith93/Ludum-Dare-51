@@ -92,7 +92,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Player-000
+  - name: BG
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -101,9 +101,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 500
-      height: 504
-    spriteID: 651260c62d9cd6c40890bb4db1e1ce91
+      width: 512
+      height: 512
+    spriteID: 048cf4275eb5c844ebd49f0e1ec9ffd6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -113,7 +113,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 12, y: 0}
+    spritePosition: {x: 0, y: 0}
   characterData:
     bones: []
     parts: []
@@ -144,6 +144,26 @@ ScriptedImporter:
   resliceFromLayer: 0
   mosaicPSDLayers: []
   rigPSDLayers:
+  - name: Layer 3
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a517b62bbce959e478a44e1b3a3fd24e
+    layerID: 10
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: Layer 2
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f00e14adb3090aa43ab41bc5db87762e
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Bone
     spriteName: 
     isGroup: 0
@@ -172,8 +192,18 @@ ScriptedImporter:
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 1
-    isVisible: 1
+    isImported: 0
+    isVisible: 0
+  - name: Layer 1
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e55916c62f0e17b4ab950732207ae04f
+    layerID: 8
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: Wall
     spriteName: 
     isGroup: 0
@@ -185,15 +215,15 @@ ScriptedImporter:
     isImported: 0
     isVisible: 0
   - name: BG
-    spriteName: 
+    spriteName: BG
     isGroup: 0
     parentIndex: -1
     spriteID: 048cf4275eb5c844ebd49f0e1ec9ffd6
     layerID: 6
-    mosaicPosition: {x: 0, y: 0}
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
-    isImported: 0
-    isVisible: 0
+    isImported: 1
+    isVisible: 1
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   generateGOHierarchy: 0
